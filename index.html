@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <section class="mainSection">
+        <main>
+            <h1 id="currentTime"></h1>
+            <div class="userInputBox">
+                <input type="text" placeholder="Hours" class="userInputs" id="userHour">
+                <input type="text" placeholder="Minutes" class="userInputs" id="userMinutes">
+                <input type="text" placeholder="Seconds" class="userInputs" id="userSeconds">
+            </div>
+
+            <button id="setAlarmbtn" class="alarmBtns">Set Alarm</button>
+            <button id="stopAlarmBtn" class="alarmBtns stopAlarmBtnHide">Stop Alarm</button>
+        </main>
+    </section>
+
+    <h1 class="hamBurgur" id="showNavBar">&#9776;</h1>
+
+    <section class="sideBarSection" id="sideBarSection">
+        <h1 class="crossBtn" id="hideNavBar">&#10005</h1>
+
+        <h1>Select Your Desired Alarm Ringtone :-</h1>
+
+
+        <label for="Alarm1">
+            <input type="radio" name="alarmSounds" id="Alarm1" value="Alarm 1">
+            Alarm 1
+        </label>
+
+        <label for="Alarm2">
+            <input type="radio" name="alarmSounds" id="Alarm2" value="Alarm 2">
+            Alarm 2
+        </label>
+
+        <label for="Alarm3">
+            <input type="radio" name="alarmSounds" id="Alarm3" value="Alarm 3">
+            Alarm 3
+        </label>
+
+        <label for="Alarm4">
+            <input type="radio" name="alarmSounds" id="Alarm4" value="Alarm 4">
+            Alarm 4
+        </label>
+
+        <label for="default">
+            <input type="radio" name="alarmSounds" id="default" value="Default" checked>
+            Default
+        </label>
+
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
