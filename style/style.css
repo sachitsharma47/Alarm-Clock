@@ -156,13 +156,6 @@ main>h1 {
         border-left-color: #f00;
     }
 
-    0% {
-        border-top-color: #f00;
-        border-right-color: #0f0;
-        border-bottom-color: #00f;
-        border-left-color: rgb(0, 217, 255);
-    }
-
     40% {
         border-top-color: rgb(0, 217, 255);
         border-right-color: #f00;
